@@ -1,0 +1,22 @@
+{
+  "name": "angular-js-practice",
+  "version": "1.0.0",
+  "description": "Practice app for AngularJS 1.6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandraTheMerciless/AngularJS-Practice.git"
+  },
+  "author": "Chandra Asar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChandraTheMerciless/AngularJS-Practice/issues"
+  },
+  "homepage": "https://github.com/ChandraTheMerciless/AngularJS-Practice#readme",
+  "dependencies": {
+    "angular": "^1.6.9"
+  }
+}
