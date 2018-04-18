@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="firstAngularApp">
+  <title>Angular 1.6 getting started</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <body ng-controller="mainCtrl as vm">
+
+    <h3>List of fruits!</h3>
+    <p>Search by value:</p>
+    <input type="text" ng-model="vm.search" />
+
+    <button class="btn btn-primary" ng-click="vm.alertMe()">Alert!</button>
+
+    <posts-list></posts-list>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <script src="posts-list/posts-list-component.js"></script>
+  </body>
+</html>
